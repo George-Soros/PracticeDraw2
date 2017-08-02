@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class PageModel {
+        /**
+         * @LayoutRes 资源类型注解，可以提前帮助检查传递的资源类型是否正确
+         */
         @LayoutRes int sampleLayoutRes;
         @StringRes int titleRes;
         @LayoutRes int practiceLayoutRes;
